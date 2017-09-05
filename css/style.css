@@ -1,0 +1,188 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, serif;
+    padding: 0;
+    margin:0;
+    background-color: #323232;
+    color:white;
+  }
+  
+  /* Global */
+  .container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+  } 
+
+  /*HEADER*/
+
+header {
+    background:#35424a;
+    color:#9F307B;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #9F307B 3px solid;
+  
+  }
+  
+  header a {
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  header li {
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding {
+    float:left;
+  }
+  
+  header #branding h1 {
+    margin:0;
+  }
+  
+  header nav {
+    float:right;
+    margin-top: 10px;
+  
+  }
+  
+  header .higlight, header .current a {
+    color:#9F307B;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color:#cccccc;
+    font-weight: bold;
+  }
+  #HS{
+      color:#A6A0A0;
+  }
+
+  /*carousel*/
+    .item {
+        max-height:600px; 
+        max-width:auto;
+        display: -1600;
+        border-bottom: #9F307B 3px solid;
+    }
+
+  .item active {
+      max-height: 600px;
+      max-width: auto;
+      border-bottom:#9F307B 3px solid;
+  }
+
+  /*boxesandboxes*/
+#services{
+    border-bottom: #9F307B 3px solid; 
+}
+.text-center {
+    margin-top:20px
+    border:5px solid #9F307B;
+    color:#9F307B;
+ 
+}
+ 
+
+#styling {
+    color:white;
+}
+#coloring {
+    color:white;
+
+}
+
+#haircuts {
+    color:white;
+}
+
+/* table*/
+#appointment{
+    border-bottom: #9F307B 3px solid;
+}
+.table {
+    color:white;
+    border:2px solid #323232;
+    
+}
+
+.faq {
+    background-color:#323232;
+    
+}
+.panel-info {
+    background-color:#323232;
+}
+.panel-heading {
+    background-color: #323232;
+}
+.panel-group {
+    background-color: #323232;
+}
+
+#headingOne {
+    background-color:#9F307B;
+    color:black;
+}
+#headingTwo {
+    background-color:#9F307B;
+    color:black;
+
+}
+#headingThree {
+    background-color:#9F307B;
+    color:black;
+}
+/*footer*/
+
+footer {
+padding: 20px;
+margin-top: 20px;
+color:#ffffff;
+background-color: #323232;
+text-align: center;
+
+border-top-style: solid;
+border-top-color: #9F307B;
+}
+
+
+#foot {
+float: left;
+
+}
+
+#footnav {
+    float: right;
+    color:white;
+
+}
+
+#footpic {
+   float: left;
+   
+}
+
+#profile {
+    max-width: 15%;
+    max-height: 15%;
+}
+#para {
+    clear: both;
+    color:#9F307B;
+}
+.foth {
+    color:#9F307B;
+}
